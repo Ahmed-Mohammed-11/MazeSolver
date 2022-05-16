@@ -1,10 +1,23 @@
-# Data Structures and Algorithms Course Assignment (7)
-## MazeSolver
-Solving Mazes given in a text file with DFS and BFS algorithms in java
+# MazeSolver
+Solving Mazes given in a text file with DFS and BFS algorithms in java            
 
-## Explanation
-You should be able to find the path from the startcell to the goal cell using the path findingalgorithms. The user can specify how he would liketo solve the maze using DFS or BFSalgorithm and you should output the path he shouldfollow..You need to implement the following interface. Ifthere is any errors in the file, or in thepassed parameter, then you should throw an exception.Coordinates indexes are zero based.
 
-## Contributors
-- Ahmed Mohamed  [Profile: https://github.com/Ahmed-Mohamed-1011]
-- Mahmoud Embaby [Profile: https://github.com/membaby]
+• Given File Format : txt file named map -> map.txt
+• the user has to choose the prefered method of solving whether DFS (Depth First) or BFS (Breadth First).
+• the input format :
+  • you should input the size of the maze in the first line in the map on the form <row> <column>
+  • you should draw your maze on the form
+     -> 'S' denoting the starting point of the maze. 
+     -> 'E' denoting to the End point of the maze.
+     -> '.' which will be points that you are free to move through.
+     -> '#' which will be blocks "you can't move through".
+   • example to the maze input in map.txt file :
+      5 5 
+      S...#
+      ##.##
+      #...#
+      .E.##
+• the output format : 
+  • the path illustrated in the map.
+  • vertices of steps to be followed on that map. 
+  
